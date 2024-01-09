@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Austria';
+    src: url('fonts/Austria.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+/* #h1{
+    background-image: url(img/FondoLetras.jpg);
+    background-size: cover; 
+    background-color: fuchsia; 
+    text-align: center;
+    padding: 15px;
+    font-size: 46px; 
+    height: 85px;
+} */
+
+body{
+    background-color: rgb(216, 216, 216);
+    background-image: url(img/geometric-leaves.webp);
+    font-family: 'Source Serif 4', serif;
+}
+/* .pattern{
+    background-color: #d2d2d2;
+
+    background-image: radial-gradient(circle at center center, #da379c, #d2d2d2), repeating-radial-gradient(circle at center center, #da379c, #da379c, 29px, transparent 58px, transparent 29px);
+    background-blend-mode: multiply;
+} */
+
+header,section,footer{
+    background-color: #fff;
+    
+}
+
+ #botonera{
+    /* background-image: url(img/FondoKL.jpg); */
+    background-color: rgb(247, 168, 217);
+    padding: 3px;
+    
+    
+}
+#botonera .stick {
+    position: sticky;
+    top: 0px;
+}
+
+.menu-fixed{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    /* left: 250px; */
+    width: 1116px;
+    /* border-radius: 0 0 15px 15px;
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    -ms-border-radius: 0 0 15px 15px;
+    -o-border-radius: 0 0 15px 15px; */
+}
+.menu-fixed2{
+  position: fixed;
+  z-index: 900;
+  top: 50px;
+  left: 910px;
+  width: 300px;  
+}
+/* #inicio #h1{
+    background-image: url(img/FondoLetras.jpg);
+} */
+.title{
+    padding-top: 5px;
+}
+.title, .text{
+    padding-left: 10px;
+}
+
+
+
+    #botonera ul li a{
+        padding: 10px 15px;
+        /* margin-right: 20px; */
+        /* margin-top: -8px; */
+        /* margin-bottom: 40px; */
+        color: #000;
+        background-color:rgb(248, 148, 248);
+    }
+        #botonera ul li a:hover{
+            background-color: rgba(70, 131, 245, 0.603);
+            color: #fff;
+        }
+
+
+#caja_carousel{
+    background-color: rgb(10, 103, 165);
+    background-image: url(img/pink_rice.webp);
+    /* height: 550px; */
+    display: flex;
+    justify-content: center;
+}
+#carousel{
+    width: 50%;
+
+}
+#catalogo{
+    /* background-color: rgb(245, 167, 245); */
+    background: linear-gradient(rgb(238, 215, 237), rgb(248, 148, 248) );
+}
+
+.divcent{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#cat,aside {
+    margin-top: 5px;
+    padding: 10px;
+    -moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px;
+  }
+#cat {
+    float: left;
+    width: 70%;
+    background: #fafafa;
+    border: 1px solid #ccc;
+    display: inline;
+  }
+aside {
+    float: right;
+    width: 29%;
+    background:#ccc;
+    color: #333;
+  }
+.card{
+    display: inline-block;
+    margin: 20px;
+    margin-top: 10px;
+  }
+
+fix{
+    position: sticky;
+    top: 0;
+}
+
+#sobrenos{
+    background-color: rgb(248, 148, 248);
+    /* height: 600px; */
+    text-align: center;
+}
+
+h2{
+    font-family: 'Austria';
+    text-align: center;
+    font-size: 52px;
+    /* margin: 30px; */
+    padding: 30px;
+    padding-top: 80px;
+}
+h4{
+    font-family: 'Austria';
+    font-size: 30px;
+}
+/* 
+#metodo_pagos,#horarios{
+    background-color: blue;
+} */
+    #metodo_pagos ul, #horarios ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+        /* #metodo_pagos ul li, #horarios ul li{
+            display: inline;
+        } */
+            #metodo_pagos ul li, #horarios ul li{
+                color: #000;
+                text-decoration: none;
+            }
+    #metodo_pagos ul li a:hover{
+        background-color: rgba(70, 131, 245, 0.603);
+        color: #fff;
+    }
+
+/* #metodo_pagos{
+    background-color: blue;
+    width: 50%;
+}
+#horarios{
+    background-color: red;
+    width: 50%;
+} */
+
+/* .centrado{
+    text-align: center; 
+    padding: 20px;
+} */
+.centrado ul li{
+    margin: 20px;
+    /* background-color: rgba(160, 160, 160, 0.568); */
+    background-color: rgba(255, 255, 255, 0.404);
+    padding: 15px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 20px;
+}
+#sobrenos p{
+    /* text-align: center; */
+    font-size: 24px;
+    font-family: 'Cormorant SC', serif;
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+/* .centrado ul li a{
+    margin: 20px;
+} */
+
+#consultanos{
+    background: -webkit-linear-gradient(rgb(248, 148, 248),#668cff,#4d79ff,#3366ff, #0040ff,#0033cc);
+    height: 700px;
+    margin-top: -16px;
+
+}
+h5{
+    text-align: center;
+    padding: 10px;
+}
+
+#formu{
+ /* background-color: rgb(12, 62, 201); */
+ /*height: 200px;
+ */padding: 75px;
+ /*margin: 20px;
+ */
+}
+.form{
+    /* background-color: rgb(179, 179, 179); */
+    background: -webkit-linear-gradient(#b3b3b3, #bebebe, #a6a6a6, #999999);
+    padding: 25px;
+    border-radius: 50px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+#map{
+    /* background-color: darkgreen; */
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#redes{
+    /* width: 300px; */
+    /* height: 80px; */
+    /* float: left; */
+    /* margin-left: 65px; */
+    /* margin-top: 45px; */
+    /* background-color: #ff99dd; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#redes ul{
+    margin: 0; 
+    padding: 0;
+    list-style-type: none;
+}
+#redes ul li{
+    
+    display: inline;
+    font-size: 48px;
+}
+#redes ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: #000;
+}
+
+#redes ul li a:hover{
+    color: #ff99dd;
+}
+
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    font-size: 8px;
+}
+
+
+
+
+
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    .primeritem{
+        margin-top: 10px;
+    }
+
+    #botonera ul li a{
+        border-bottom: rgb(255, 159, 218) 1px solid;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 599px) {
+    /* #h1{
+        height: 85px;
+    } */
+    .primeritem{
+        margin-top: 10px;
+    }
+
+
+
+        
+#carousel{
+    width: 100%;
+    
+}
+#redes ul li a{
+    padding: 15px;
+    color: #000;
+}
+
+/* aside,#cat {
+    float:none;
+    width:96%;
+    font-size:1.2em;
+  }
+  #cat {
+    font-size:1.2em;
+  }
+  aside {
+    margin-top:5px;
+    background:#333;
+    color: #fff;
+  } */
+}
